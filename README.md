@@ -41,7 +41,7 @@ php artisan serve
 | `'/buku' `               | `GET`    | menampilkan tabel berisi data buku yang tersedia                                                              |
 | `'/buku/create'`         | `GET`    | menampilkan form untuk membuat data buku baru, di dalam form tersebut terdapat input pengisian data-data buku |
 | `'/buku'`                | `POST`   | menyimpan data buku baru                                                                                      |
-| `'/buku/{buku_id}'`      | `GET`    | no #6                                                                                                         |
+| `'/buku/{buku_id}'`      | `GET`    | menampilkan detail buku                                                                                       |
 | `'/buku/{buku_id}/edit'` | `GET`    | menampilkan form untuk edit data-data buku                                                                    |
 | `'/buku/{buku_id}'`      | `PUT`    | menyimpan data buku yang sudah diedit melalui form edit buku sesuai id                                        |
 | `'/buku/{buku_id}'`      | `DELETE` | menghapus data buku dengan id tertentu                                                                        |
